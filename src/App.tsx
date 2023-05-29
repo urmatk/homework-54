@@ -3,6 +3,7 @@ import './App.css';
 import Square from "./components/Square/Square";
 import PlayingField from "./components/PlayingField/PlayingField";
 import Counter from "./components/Counter/Counter";
+import Reset from "./components/Reset/Reset";
 
 
 
@@ -31,10 +32,16 @@ function App() {
         setCounter(counter + 1);
     };
 
+    const reset = () => {
+        setItems(createItems());
+        setCounter(0)
+    }
+
   return (
     <div className="App">
         <PlayingField items={items} openSquare={openSquare} />
         <Counter counter={counter}/>
+        <Reset restartGame = {() => reset()}/>
     </div>
   );
 }

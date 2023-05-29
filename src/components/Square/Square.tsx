@@ -13,7 +13,7 @@ const Square: React.FC<ISquareProps> = props=> {
     const squareStyle: React.CSSProperties = {
         width: '60px',
         height: '60px',
-        background: 'lightslategray',
+        backgroundColor: 'lightslategray',
         margin: '1px',
         backgroundSize: 'contain',
         backgroundPosition: 'center',

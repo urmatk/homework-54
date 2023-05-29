@@ -10,3 +10,10 @@
   height: 400px;
 }
 
+.btn {
+  padding: 8px 24px;
+  border-radius: 3px;
+  background: chartreuse;
+  color: black;
+}
+
