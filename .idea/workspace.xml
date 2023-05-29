@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8d66cd-74ec-491a-b61e-86ff47edb0f8" name="Changes" comment="" />
+    <list default="true" id="ad8d66cd-74ec-491a-b61e-86ff47edb0f8" name="Changes" comment="создал клетку и полю">
+      <change afterPath="$PROJECT_DIR$/src/components/PlayingField/PlayingField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Square/Square.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Square/Square.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/playingField/playingField.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,16 +44,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/user/urmat/homework-53",
+    "last_opened_file_path": "/home/user/urmat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/user/urmat/components-demo/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/user/urmat/homework-54/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Square" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +72,13 @@
       <workItem from="1684911892456" duration="27000" />
       <workItem from="1684916608082" duration="16455000" />
       <workItem from="1685001436309" duration="9812000" />
+      <workItem from="1685096231287" duration="7575000" />
+      <workItem from="1685104027595" duration="17000" />
+      <workItem from="1685104213747" duration="1513000" />
+      <workItem from="1685106188699" duration="277000" />
+      <workItem from="1685107126429" duration="6544000" />
+      <workItem from="1685184878883" duration="7049000" />
+      <workItem from="1685341368094" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="Создал файл AddTaskForm в нем инпут и кнопка для добавление новых задач">
       <created>1685002142160</created>
@@ -78,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685009249237</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="создал клетку и полю">
+      <created>1685103618229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685103618229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +137,7 @@
     <MESSAGE value="Создал файл Task в нее добавляется задачи и удаляются" />
     <MESSAGE value="Добавил обработчики и добавляем в массив всех задач новый элементов" />
     <MESSAGE value="Добавили удаление элемента" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавили удаление элемента" />
+    <MESSAGE value="создал клетку и полю" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал клетку и полю" />
   </component>
 </project>

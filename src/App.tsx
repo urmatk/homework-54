@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import Square from "./components/Square/Square";
+import PlayingField from "./components/PlayingField/PlayingField";
+import Counter from "./components/Counter/Counter";
+
+
 
 function App() {
+    const createItems = () => {
+        const fields = [];
+
+        for (let i = 1; i <= 36; i++){
+            fields.push({hasItem: false, clicked: false})
+        }
+
+        const randomIndex = Math.floor(Math.random() * fields.length);
+        fields[randomIndex].hasItem = true;
+        return fields;
+    };
+
+    const [items, setItems] = useState(createItems());
+    const [counter, setCounter] = useState(0);
+
+    const openSquare = (index: number) => {
+        const itemsCopy = [...items];
+        const square = {...items[index]};
+        square.clicked = true;
+        itemsCopy[index] = square;
+        setItems(itemsCopy);
+        setCounter(counter + 1);
+    };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <PlayingField items={items} openSquare={openSquare} />
+        <Counter counter={counter}/>
     </div>
   );
 }
 
 export default App;
+
+
+// const peopleCopy = [...people];
+// const personCopy = {...peopleCopy[1]};
+// personCopy.name = 'John Doe';
+// peopleCopy[1] = personCopy;
+// setPeople(peopleCopy);
